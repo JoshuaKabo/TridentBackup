@@ -1,0 +1,3 @@
+W/ std toolhead, .4mm nozzle, revo v6 hotend, ASA wants a +0.01 z offset for least squish (maybe on second layer upward)
+
+Seems that I don't need M191 at any point, just a chamber temp for the start dict
