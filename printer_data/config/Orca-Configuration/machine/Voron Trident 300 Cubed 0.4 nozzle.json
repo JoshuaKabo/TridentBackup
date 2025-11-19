@@ -1,0 +1,49 @@
+{
+    "from": "User",
+    "inherits": "Voron Trident 300 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_e": [
+        "2000",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "5500",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "5500",
+        "20000"
+    ],
+    "machine_max_speed_x": [
+        "120",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "120",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "8",
+        "12"
+    ],
+    "machine_start_gcode": "PRINT_START BED=[first_layer_bed_temperature] EXTRUDER=[first_layer_temperature[initial_extruder]] CHAMBER=[chamber_temperature] MATERIAL=[filament_type]",
+    "name": "Voron Trident 300 Cubed 0.4 nozzle",
+    "nozzle_type": "brass",
+    "print_host": "10.0.0.81",
+    "printable_height": "290",
+    "printer_notes": "I really toned all the speeds down. When I want to be serious about speeds I should start fresh\n\nChamber settings are handled by the printer.conf stuff, the checkbox should be off in orca, but the temp selected will go through into the gcode and handled by print start conf",
+    "printer_settings_id": "Voron Trident 300 Cubed 0.4 nozzle",
+    "retraction_length": [
+        "0.3"
+    ],
+    "version": "2.1.1.0",
+    "wipe_distance": [
+        "2"
+    ],
+    "z_hop": [
+        "0.2"
+    ],
+    "z_hop_types": [
+        "Spiral Lift"
+    ]
+}

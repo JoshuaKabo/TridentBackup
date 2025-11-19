@@ -1,0 +1,8 @@
+{
+    "from": "User",
+    "inherits": "0.20mm Standard @Voron",
+    "is_custom_defined": "0",
+    "name": "0.20mm 25mm3 @Voron",
+    "print_settings_id": "0.20mm 25mm3 @Voron",
+    "version": "2.2.0.0"
+}

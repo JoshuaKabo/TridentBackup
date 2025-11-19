@@ -1,0 +1,25 @@
+{
+    "default_filament_colour": [
+        "#F99963"
+    ],
+    "filament_density": [
+        "1.31"
+    ],
+    "filament_settings_id": [
+        "Bambu Matte PLA Ice Blue"
+    ],
+    "filament_vendor": [
+        "Bambu Labs"
+    ],
+    "from": "User",
+    "inherits": "Voron Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Bambu Matte PLA Ice Blue",
+    "nozzle_temperature": [
+        "208"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "212"
+    ],
+    "version": "2.1.1.0"
+}

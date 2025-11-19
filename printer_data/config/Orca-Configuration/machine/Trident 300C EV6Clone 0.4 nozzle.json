@@ -1,0 +1,55 @@
+{
+    "from": "User",
+    "inherits": "Voron Trident 300 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_e": [
+        "2000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "1000",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1000",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "2000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "2000",
+        "20000"
+    ],
+    "machine_max_speed_e": [
+        "30",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "160",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "160",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "10",
+        "12"
+    ],
+    "machine_start_gcode": "PRINT_START BED=[first_layer_bed_temperature] EXTRUDER=[first_layer_temperature[initial_extruder]] CHAMBER=[chamber_temperature]",
+    "name": "Trident 300C EV6Clone 0.4 nozzle",
+    "nozzle_type": "brass",
+    "print_host": "mainsailos.local",
+    "printable_height": "290",
+    "printer_notes": "I really toned all the speeds down. When I want to be serious about speeds I should start fresh\n\nChamber settings are handled by the printer.conf stuff, the checkbox should be off in orca, but the temp selected will go through into the gcode and handled by print start conf",
+    "printer_settings_id": "Trident 300C EV6Clone 0.4 nozzle",
+    "retraction_length": [
+        "0.5"
+    ],
+    "version": "2.1.1.0",
+    "z_hop": [
+        "0.2"
+    ]
+}

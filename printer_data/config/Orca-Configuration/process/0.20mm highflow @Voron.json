@@ -1,0 +1,16 @@
+{
+    "from": "User",
+    "gap_infill_speed": "200",
+    "inherits": "0.20mm Standard @Voron",
+    "initial_layer_infill_speed": "180",
+    "initial_layer_speed": "160",
+    "inner_wall_speed": "240",
+    "internal_solid_infill_speed": "240",
+    "is_custom_defined": "0",
+    "name": "0.20mm highflow @Voron",
+    "outer_wall_speed": "220",
+    "print_settings_id": "0.20mm highflow @Voron",
+    "sparse_infill_speed": "220",
+    "top_surface_speed": "200",
+    "version": "2.2.0.0"
+}

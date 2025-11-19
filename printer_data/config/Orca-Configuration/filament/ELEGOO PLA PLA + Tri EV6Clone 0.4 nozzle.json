@@ -1,0 +1,13 @@
+{
+    "filament_settings_id": [
+        "ELEGOO PLA PLA + Tri EV6Clone 0.4 nozzle"
+    ],
+    "from": "User",
+    "inherits": "ELEGOO PLA PLA + @Voron Trident 300 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "ELEGOO PLA PLA + Tri EV6Clone 0.4 nozzle",
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "version": "2.1.1.0"
+}

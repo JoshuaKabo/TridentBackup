@@ -1,0 +1,70 @@
+{
+    "deretraction_speed": [
+        "35"
+    ],
+    "from": "User",
+    "inherits": "Voron Trident 300 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_e": [
+        "2000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "10000",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "10000",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "10000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "10000",
+        "20000"
+    ],
+    "machine_max_speed_e": [
+        "40",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "260",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "260",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "20",
+        "12"
+    ],
+    "machine_start_gcode": "PRINT_START BED=[first_layer_bed_temperature] EXTRUDER=[first_layer_temperature[initial_extruder]] CHAMBER=[chamber_temperature]",
+    "max_layer_height": [
+        "0.48"
+    ],
+    "min_layer_height": [
+        "0.15"
+    ],
+    "name": "Voron Trident 300 Cubed 0.6 nozzle",
+    "nozzle_diameter": [
+        "0.6"
+    ],
+    "nozzle_type": "brass",
+    "print_host": "mainsailos.local",
+    "printable_height": "290",
+    "printer_notes": "I really toned all the speeds down. When I want to be serious about speeds I should start fresh\n\nChamber settings are handled by the printer.conf stuff, the checkbox should be off in orca, but the temp selected will go through into the gcode and handled by print start conf",
+    "printer_settings_id": "Voron Trident 300 Cubed 0.6 nozzle",
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "retraction_length": [
+        "0.2"
+    ],
+    "retraction_speed": [
+        "35"
+    ],
+    "version": "2.1.1.0"
+}

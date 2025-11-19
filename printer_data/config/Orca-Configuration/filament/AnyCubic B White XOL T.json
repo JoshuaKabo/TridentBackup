@@ -1,0 +1,19 @@
+{
+    "filament_settings_id": [
+        "AnyCubic B White XOL T"
+    ],
+    "from": "User",
+    "inherits": "Voron Generic PLA",
+    "is_custom_defined": "0",
+    "name": "AnyCubic B White XOL T",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "nozzle_temperature_range_high": [
+        "210"
+    ],
+    "version": "2.2.0.4"
+}

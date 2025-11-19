@@ -1,0 +1,9 @@
+{
+    "from": "User",
+    "inherits": "Voron Trident 300 0.15 nozzle",
+    "is_custom_defined": "0",
+    "name": "Voron Trident 300 Cubed 0.15 nozzle",
+    "printable_height": "300",
+    "printer_settings_id": "Voron Trident 300 Cubed 0.15 nozzle",
+    "version": "2.1.1.0"
+}
